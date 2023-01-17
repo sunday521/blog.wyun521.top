@@ -18,7 +18,8 @@
 
 .aplayer .aplayer-list ol::-webkit-scrollbar-thumb {
     border-radius: 3px;
-    background-color: #666 !important
+    /* background-color: #666 !important */
+    background-color: #6cf !important
 }
 
 .aplayer .aplayer-list ol::-webkit-scrollbar-thumb:hover {
@@ -47,7 +48,7 @@
 .aplayer.aplayer-fixed .aplayer-body {
     border-radius: 8px !important;
     padding: 0 !important;
-    border: 2px solid #ed709b
+    border: 2px solid #49b1f5;
 }
 
 .aplayer.aplayer-fixed .aplayer-info {
@@ -90,7 +91,7 @@
 }
 
 .aplayer.aplayer-fixed .aplayer-list {
-    border: #ed709b solid 2px !important
+    border: #49b1f5 solid 2px !important
 }
 
 .aplayer .aplayer-list.aplayer-list-hide {

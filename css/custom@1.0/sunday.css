@@ -33,6 +33,10 @@ blockquote {
     background-color: #eee;
 }
 
+[data-theme="dark"] blockquote {
+    background-color: rgb(0,0,0,.5);
+}
+
 #aside-content #card-toc .toc-content .toc-link.active {
     border-radius: 5px;
 }
@@ -40,4 +44,73 @@ blockquote {
 
 #recent-posts>.recent-post-item>.recent-post-info>.article-title:hover {
     border-bottom: 2px solid #49b1f5;
+}
+
+#aside-content .card-tag-cloud a:hover {
+    text-decoration: underline;
+}
+
+#aside-content .card-info #card-info-btn {
+    border-radius: 5px;
+}
+
+a.thumbnail img {
+    border-radius: 5px;
+}
+
+li.card-category-list-item a:hover {
+    border-radius: 5px;
+}
+
+li.card-archive-list-item a:hover {
+    border-radius: 5px;
+}
+
+#rightside>div>button,
+#rightside>div>a {
+    border-radius: 8px;
+}
+
+#page-header #site-title {
+    display: none;
+}
+
+#pagination.pagination-post {
+    border-radius: 8px;
+}
+
+/* 修改文章目录的宽度和字体大小 */
+#aside-content .toc-content {
+    font-size: 15px;
+    width: 300px;
+}
+
+#card-toc {
+    width: 300px;
+}
+
+
+#post .post-copyright:hover {
+    box-shadow: 0 0 8px 0 #409eff, 0 2px 4px 0 rgb(232 237 250 / 50%);
+}
+
+.aplayer.aplayer-fixed .aplayer-lrc {
+    display: none !important;
+}
+
+/* 信息卡片彩带 */
+.author_top:hover {
+    background: url(https://tuchuang.voooe.cn/images/2023/01/02/snow.gif);
+    background-size: cover;
+}
+
+#wechat-gh {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-image: url(https://mysource-hexo.wyun521.top/img/my/扫码_搜索联合传播样式-标准色版.png);
+    background-size: cover;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .1);
 }

@@ -5,11 +5,11 @@
 }
 
 .el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(2):before {
-    content: '收到回复将会发送到您的邮箱📧';
+    content: '填写可接收回复的邮箱📧';
 }
 
 .el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(3):before {
-    content: '可以通过昵称访问您的网站🔗';
+    content: '可以通过网址访问您的网站🔗';
 }
 
 /* 当用户点击输入框时显示 */
