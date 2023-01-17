@@ -1,0 +1,43 @@
+/* 翻页按钮居中 */
+#pagination {
+    width: 100%;
+    margin: auto;
+}
+
+/* 个人卡片背景 */
+[data-theme="light"] #aside-content>.card-widget.card-info {
+    /* background-image: url(https://mysource-hexo.wyun521.top/img/avatar/7.jpg) !important; */
+    background: rgb(204, 234.6, 255) !important;
+    border: 1px solid rgb(0, 122.4, 204) !important;
+    background-attachment: inherit;
+    background-size: cover;
+}
+
+code,
+kbd,
+samp {
+    border-radius: 5px;
+}
+
+code {
+    color: #6dc1f7 !important;
+}
+
+.table-wrap {
+    overflow: auto;
+}
+
+blockquote {
+    border-left: 3px solid #e70d0d;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+#aside-content #card-toc .toc-content .toc-link.active {
+    border-radius: 5px;
+}
+
+
+#recent-posts>.recent-post-item>.recent-post-info>.article-title:hover {
+    border-bottom: 2px solid #49b1f5;
+}
