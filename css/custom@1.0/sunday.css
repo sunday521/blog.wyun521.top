@@ -1,3 +1,14 @@
+
+@import "wave.css";
+@import "universe.css";
+@import "scrollbar.css";
+@import "oneimg.css";
+@import "font.css";
+@import "comment.css";
+@import "aplayer.css";
+@import "weixin-gh.css";
+
+
 /* 翻页按钮居中 */
 #pagination {
     width: 100%;
@@ -104,7 +115,7 @@ li.card-archive-list-item a:hover {
     background-size: cover;
 }
 
-#wechat-gh {
+/* #wechat-gh {
     position: absolute;
     left: 0;
     top: 0;
@@ -113,4 +124,13 @@ li.card-archive-list-item a:hover {
     background-size: cover;
     width: 100%;
     background-color: rgba(0, 0, 0, .1);
+} */
+
+#nav .menus_items .menus_item .menus_item_child {
+    padding: 6px 4px 8px 4px;
+    border-radius: 5px;
+}
+
+#nav .menus_items .menus_item .menus_item_child li:hover {
+    border-radius: 5px;
 }
