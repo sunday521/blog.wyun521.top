@@ -140,3 +140,17 @@ li.card-archive-list-item a:hover {
 [data-theme="dark"] .main-hero-waves-area {
     display: none;
 }
+
+#recent-posts>.recent-post-item {
+    height: 15em;
+}
+
+@media screen and (max-width: 768px) {
+    #recent-posts>.recent-post-item>.recent-post-info {
+        padding: 20px 20px 20px;
+    }
+
+    #recent-posts>.recent-post-item {
+        height: 350px;
+    }
+}
