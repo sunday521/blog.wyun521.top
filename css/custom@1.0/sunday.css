@@ -151,6 +151,6 @@ li.card-archive-list-item a:hover {
     }
 
     #recent-posts>.recent-post-item {
-        height: 350px;
+        height: auto;
     }
 }
