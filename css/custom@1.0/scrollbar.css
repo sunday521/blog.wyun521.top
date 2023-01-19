@@ -1,3 +1,4 @@
+@charset "utf-8";
 /* 滚动条样式 */
 ::-webkit-scrollbar {
     width: 8px;

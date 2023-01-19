@@ -1,3 +1,8 @@
+document.write("<script language=javascript src='/js/custom@1.0/title.js'></script>");
+// document.write("<script language=javascript src='xxx.js'></script>");
+
+
+// =======注意在js中引入另一个js文件不能带有defer async字样的异步加载=====
 // 防抖全局计时器
 let TT = null;    //time用来控制事件的触发
 // 防抖函数:fn->逻辑 time->防抖时间

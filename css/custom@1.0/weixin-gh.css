@@ -1,4 +1,5 @@
 /* 公众号 Start */
+@charset "utf-8";
 
 [data-theme='light'] #aside-content .card-widget#card-wechat {
     background: #409eff !important;

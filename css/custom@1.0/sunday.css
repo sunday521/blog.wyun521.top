@@ -1,4 +1,5 @@
-
+@charset "utf-8";
+@import "nav.css";
 @import "wave.css";
 @import "universe.css";
 @import "scrollbar.css";
@@ -133,4 +134,9 @@ li.card-archive-list-item a:hover {
 
 #nav .menus_items .menus_item .menus_item_child li:hover {
     border-radius: 5px;
+}
+
+
+[data-theme="dark"] .main-hero-waves-area {
+    display: none;
 }
