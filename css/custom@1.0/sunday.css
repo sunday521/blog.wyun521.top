@@ -154,3 +154,29 @@ li.card-archive-list-item a:hover {
         height: auto;
     }
 }
+
+[data-theme="light"] #recent-posts>.recent-post-item {
+    background: #ecf5ff;
+}
+
+@media screen and (min-width: 768px) {
+    [data-theme="dark"] #recent-posts>.recent-post-item:not(:first-child) {
+        border-style: none solid none none;
+        border-color: #49b1f5;
+        border-width: medium;
+    }
+}
+
+
+[data-theme="light"] #aside-content .card-widget {
+    background: #ecf5ff;
+}
+
+#article-container a:hover {
+    text-decoration: underline;
+    color: #572dd9;
+}
+
+[data-theme="light"] .nav {
+    background: #ecf5ff;
+}
