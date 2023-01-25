@@ -20,7 +20,7 @@
 [data-theme="light"] #aside-content>.card-widget.card-info {
     /* background-image: url(https://mysource-hexo.wyun521.top/img/avatar/7.jpg) !important; */
     background: rgb(204, 234.6, 255) !important;
-    border: 1px solid rgb(0, 122.4, 204) !important;
+    border: 2px solid rgb(0, 122.4, 204) !important;
     background-attachment: inherit;
     background-size: cover;
 }
@@ -177,6 +177,6 @@ li.card-archive-list-item a:hover {
     color: #572dd9;
 }
 
-[data-theme="light"] .nav {
-    background: #ecf5ff;
+[data-theme="light"] header.nav-fixed #nav {
+    background: #ecf5ff !important;
 }
