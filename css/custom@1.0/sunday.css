@@ -19,10 +19,11 @@
 /* 个人卡片背景 */
 [data-theme="light"] #aside-content>.card-widget.card-info {
     /* background-image: url(https://mysource-hexo.wyun521.top/img/avatar/7.jpg) !important; */
+    /* background-attachment: inherit; */
+    /* background-size: cover; */
     background: rgb(204, 234.6, 255) !important;
     border: 2px solid rgb(0, 122.4, 204) !important;
-    background-attachment: inherit;
-    background-size: cover;
+    box-shadow: 1px 1px 5px 5px #49b1f5;
 }
 
 code,
@@ -145,20 +146,15 @@ li.card-archive-list-item a:hover {
     height: 15em;
 }
 
-@media screen and (max-width: 768px) {
-    #recent-posts>.recent-post-item>.recent-post-info {
-        padding: 20px 20px 20px;
-    }
-
-    #recent-posts>.recent-post-item {
-        height: auto;
-    }
-}
-
 [data-theme="light"] #recent-posts>.recent-post-item {
     background: #ecf5ff;
 }
+/* [data-theme="light"] #recent-posts>.recent-post-item:hover {
+    box-shadow: 3px 3px 5px 5px #1595e9;
+    transform: translateY(-10px);
+} */
 
+/* 电脑端 */
 @media screen and (min-width: 768px) {
     [data-theme="dark"] #recent-posts>.recent-post-item:not(:first-child) {
         border-style: none solid none none;
@@ -167,16 +163,70 @@ li.card-archive-list-item a:hover {
     }
 }
 
+/* 手机端 */
+@media screen and (max-width: 768px) {
+
+    #recent-posts>.recent-post-item>.recent-post-info {
+        padding: 20px 20px 20px;
+    }
+
+    #recent-posts>.recent-post-item {
+        height: auto;
+    }
+
+    #page-header #site_social_icons {
+        display: none !important;
+    }
+
+    .search-dialog {
+        top: 150px;
+        left: 0;
+        width: 100%;
+        height: 60%;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+}
+
+#page-header #scroll-down .scroll-down-effects {
+    display: none;
+}
 
 [data-theme="light"] #aside-content .card-widget {
     background: #ecf5ff;
 }
 
-#article-container a:hover {
+#article-container a {
+    color: purple;
     text-decoration: underline;
-    color: #572dd9;
+    font-size: 1.18em;
+}
+
+#article-container a:hover {
+    color: #eee;
+    background: #49b1f5;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+#article-container h1 {
+    font-size: 2em;
+}
+
+#article-container h2 {
+    font-size: 1.8em;
+}
+
+#article-container h3 {
+    font-size: 1.5em;
 }
 
 [data-theme="light"] header.nav-fixed #nav {
     background: #ecf5ff !important;
+}
+
+
+#article-container img {
+    border: 1px solid #49b1f5;
 }
